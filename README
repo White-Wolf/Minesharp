@@ -1,0 +1,8 @@
+A work in progress at the moment.
+Still trying to finish up the underlying framework.
+Currently it is using the XNA 3.1 framework for the game-side of it (updated version may remove this for a proprietary framework).
+
+Build Status: Pre-Alpha
+Build State: Builds
+Current Hurdle: Client-Server communications.
+	Right now I am still researching the connection between the client and a minecraft server. Any insight to this that you can bring would be much appreciated.
