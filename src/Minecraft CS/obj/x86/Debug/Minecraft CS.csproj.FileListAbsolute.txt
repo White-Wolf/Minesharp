@@ -1,0 +1,9 @@
+C:\Development\Minecraft to C#\Minecraft CS\Minecraft CS\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Development\Minecraft to C#\Minecraft CS\Minecraft CS\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Development\Minecraft to C#\Minecraft CS\Minecraft CS\bin\x86\Debug\Content\Resources\screens\launcher\logo.xnb
+C:\Development\Minecraft to C#\Minecraft CS\Minecraft CS\bin\x86\Debug\Content\Resources\screens\launcher\background.xnb
+C:\Development\Minecraft to C#\Minecraft CS\Minecraft CS\bin\x86\Debug\Minecraft CS.exe
+C:\Development\Minecraft to C#\Minecraft CS\Minecraft CS\bin\x86\Debug\Minecraft CS.pdb
+C:\Development\Minecraft to C#\Minecraft CS\Minecraft CS\obj\x86\Debug\Minecraft CS.exe
+C:\Development\Minecraft to C#\Minecraft CS\Minecraft CS\obj\x86\Debug\Minecraft CS.pdb
+C:\Development\Minecraft to C#\Minecraft CS\Minecraft CS\bin\x86\Debug\settings.conf

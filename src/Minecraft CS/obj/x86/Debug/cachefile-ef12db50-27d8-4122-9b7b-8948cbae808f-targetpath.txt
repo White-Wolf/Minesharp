@@ -1,0 +1,2 @@
+Content\Resources\screens\launcher\background.xnb
+Content\Resources\screens\launcher\logo.xnb

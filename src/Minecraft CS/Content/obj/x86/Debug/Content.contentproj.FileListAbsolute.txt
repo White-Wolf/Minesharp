@@ -1,0 +1,1 @@
+C:\Development\Minecraft to C#\Minecraft CS\Minecraft CS\Content\obj\x86\Debug\ResolveAssemblyReference.cache
