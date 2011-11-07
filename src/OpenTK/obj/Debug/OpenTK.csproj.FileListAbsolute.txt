@@ -1,0 +1,19 @@
+C:\Users\Kiba Urufu\Documents\OpenTK\1.0\Binaries\OpenTK\Debug\OpenTK.dll.config
+C:\Users\Kiba Urufu\Documents\OpenTK\1.0\Binaries\OpenTK\Debug\OpenTK.dll
+C:\Users\Kiba Urufu\Documents\OpenTK\1.0\Binaries\OpenTK\Debug\OpenTK.pdb
+C:\Users\Kiba Urufu\Documents\OpenTK\1.0\Binaries\OpenTK\Debug\OpenTK.xml
+C:\Users\Kiba Urufu\Documents\OpenTK\1.0\Source\OpenTK\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Kiba Urufu\Documents\OpenTK\1.0\Source\OpenTK\obj\Debug\OpenTK.Properties.Resources.resources
+C:\Users\Kiba Urufu\Documents\OpenTK\1.0\Source\OpenTK\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\Kiba Urufu\Documents\OpenTK\1.0\Source\OpenTK\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\Kiba Urufu\Documents\OpenTK\1.0\Source\OpenTK\obj\Debug\OpenTK.dll
+C:\Users\Kiba Urufu\Documents\OpenTK\1.0\Source\OpenTK\obj\Debug\OpenTK.pdb
+C:\Development\Minecraft to C#\Minesharp\src\OpenTK\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\Minecraft to C#\Minesharp\src\OpenTK\obj\Debug\OpenTK.Properties.Resources.resources
+C:\Development\Minecraft to C#\Minesharp\src\OpenTK\obj\Debug\OpenTK.csproj.GenerateResource.Cache
+C:\Development\Minecraft to C#\Minesharp\src\OpenTK\obj\Debug\OpenTK.dll
+C:\Development\Minecraft to C#\Minesharp\src\OpenTK\obj\Debug\OpenTK.pdb
+C:\Development\Minecraft to C#\Minesharp\Binaries\OpenTK\Debug\OpenTK.dll.config
+C:\Development\Minecraft to C#\Minesharp\Binaries\OpenTK\Debug\OpenTK.dll
+C:\Development\Minecraft to C#\Minesharp\Binaries\OpenTK\Debug\OpenTK.pdb
+C:\Development\Minecraft to C#\Minesharp\Binaries\OpenTK\Debug\OpenTK.xml

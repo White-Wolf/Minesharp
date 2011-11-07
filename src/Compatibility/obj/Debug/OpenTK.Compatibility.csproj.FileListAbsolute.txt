@@ -1,0 +1,21 @@
+C:\Users\Kiba Urufu\Documents\OpenTK\1.0\Binaries\OpenTK\Debug\OpenTK.Compatibility.dll.config
+C:\Users\Kiba Urufu\Documents\OpenTK\1.0\Binaries\OpenTK\Debug\OpenTK.Compatibility.dll
+C:\Users\Kiba Urufu\Documents\OpenTK\1.0\Binaries\OpenTK\Debug\OpenTK.Compatibility.pdb
+C:\Users\Kiba Urufu\Documents\OpenTK\1.0\Binaries\OpenTK\Debug\OpenTK.Compatibility.xml
+C:\Users\Kiba Urufu\Documents\OpenTK\1.0\Source\Compatibility\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Kiba Urufu\Documents\OpenTK\1.0\Source\Compatibility\obj\Debug\OpenTK.Compatibility.Properties.Resources.resources
+C:\Users\Kiba Urufu\Documents\OpenTK\1.0\Source\Compatibility\obj\Debug\Tao.Platform.Windows.SimpleOpenGlControl.resources
+C:\Users\Kiba Urufu\Documents\OpenTK\1.0\Source\Compatibility\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\Kiba Urufu\Documents\OpenTK\1.0\Source\Compatibility\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\Kiba Urufu\Documents\OpenTK\1.0\Source\Compatibility\obj\Debug\OpenTK.Compatibility.dll
+C:\Users\Kiba Urufu\Documents\OpenTK\1.0\Source\Compatibility\obj\Debug\OpenTK.Compatibility.pdb
+C:\Development\Minecraft to C#\Minesharp\src\Compatibility\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\Minecraft to C#\Minesharp\src\Compatibility\obj\Debug\OpenTK.Compatibility.Properties.Resources.resources
+C:\Development\Minecraft to C#\Minesharp\src\Compatibility\obj\Debug\Tao.Platform.Windows.SimpleOpenGlControl.resources
+C:\Development\Minecraft to C#\Minesharp\src\Compatibility\obj\Debug\OpenTK.Compatibility.csproj.GenerateResource.Cache
+C:\Development\Minecraft to C#\Minesharp\src\Compatibility\obj\Debug\OpenTK.Compatibility.dll
+C:\Development\Minecraft to C#\Minesharp\src\Compatibility\obj\Debug\OpenTK.Compatibility.pdb
+C:\Development\Minecraft to C#\Minesharp\Binaries\OpenTK\Debug\OpenTK.Compatibility.dll.config
+C:\Development\Minecraft to C#\Minesharp\Binaries\OpenTK\Debug\OpenTK.Compatibility.dll
+C:\Development\Minecraft to C#\Minesharp\Binaries\OpenTK\Debug\OpenTK.Compatibility.pdb
+C:\Development\Minecraft to C#\Minesharp\Binaries\OpenTK\Debug\OpenTK.Compatibility.xml

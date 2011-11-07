@@ -1,6 +1,7 @@
 A work in progress at the moment.
 Still trying to finish up the underlying framework.
 Currently it is using the XNA 3.1 framework for the game-side of it (updated version may remove this for a proprietary framework).
+UPDATE: The XNA framework WILL be dropped in favor of the openTK libraries. The next commit will probably be the beginning of the port.
 
 Build Status: Pre-Alpha
 Build State: Builds

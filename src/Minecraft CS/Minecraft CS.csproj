@@ -80,10 +80,6 @@
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
       <Private>False</Private>
     </Reference>
-    <Reference Include="System.Xml.Linq">
-      <RequiredTargetFramework>3.5</RequiredTargetFramework>
-      <Private>False</Private>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Blocks\Block.cs" />
@@ -150,16 +146,6 @@
     <None Include="settings.conf">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\..\temp\WindowSystem\InputEventSystem\InputEventSystem.csproj">
-      <Project>{EB30C454-C629-4B9C-B146-CB18A9F46D45}</Project>
-      <Name>InputEventSystem</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\..\temp\WindowSystem\WindowSystem\WindowSystem.csproj">
-      <Project>{F20853ED-0E08-4456-BBB2-A5FC806F60A7}</Project>
-      <Name>WindowSystem</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\Microsoft.Xna.GameStudio.targets" />

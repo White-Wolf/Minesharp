@@ -7,7 +7,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Development\Minecraft to C#\Minecraft CS\Minecraft CS\bin\x86\Debug\Content\Resources\screens\launcher\background.xnb</Output>
+      <Output>C:\Development\Minecraft to C#\Minesharp\src\Minecraft CS\bin\x86\Debug\Content\Resources\screens\launcher\background.xnb</Output>
       <Time>2011-10-08T20:15:22.5357904-06:00</Time>
     </Item>
     <Item>
@@ -16,7 +16,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Development\Minecraft to C#\Minecraft CS\Minecraft CS\bin\x86\Debug\Content\Resources\screens\launcher\logo.xnb</Output>
+      <Output>C:\Development\Minecraft to C#\Minesharp\src\Minecraft CS\bin\x86\Debug\Content\Resources\screens\launcher\logo.xnb</Output>
       <Time>2011-10-08T20:15:22.548832-06:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
@@ -24,10 +24,10 @@
       <TargetPlatform>Windows</TargetPlatform>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Development\Minecraft to C#\Minecraft CS\Minecraft CS\Content\</RootDirectory>
-      <LoggerRootDirectory>C:\Development\Minecraft to C#\Minecraft CS\Minecraft CS\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Development\Minecraft to C#\Minecraft CS\Minecraft CS\Content\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Development\Minecraft to C#\Minecraft CS\Minecraft CS\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Development\Minecraft to C#\Minesharp\src\Minecraft CS\Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Development\Minecraft to C#\Minesharp\src\Minecraft CS\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Development\Minecraft to C#\Minesharp\src\Minecraft CS\Content\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Development\Minecraft to C#\Minesharp\src\Minecraft CS\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
