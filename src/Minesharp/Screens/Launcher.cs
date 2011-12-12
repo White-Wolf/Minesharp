@@ -33,8 +33,8 @@ namespace Minesharp
         public override void Input_Controller() { }
         public override void Load()
         {
-            textures.Add("background", TextureEngine.LoadTexture(screenFolder + "background.png"));
-            textures.Add("logo", TextureEngine.LoadTexture(screenFolder + "logo.png"));
+            //textures.Add("background", TextureEngine.LoadTexture(screenFolder + "background.png"));
+            //textures.Add("logo", TextureEngine.LoadTexture(screenFolder + "logo.png"));
         }
         public override void Unload() { }
         public override void Update() { }

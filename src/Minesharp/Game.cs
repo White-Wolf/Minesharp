@@ -11,12 +11,14 @@ namespace Minesharp
     class Game : GameWindow
     {
         #region Properties
-        public ScreenManager _screenManager;
-        private String WindowTitle;
-        private float[] frames = new float[10];
+        private double FPSUpdateTicker = 0;
+        private float[] frames = new float[5];
         private int currentFrame = 0;
+        private String WindowTitle;
         public float FPS;
+        public ScreenManager _screenManager;
         #endregion
+
         #region Construct
         public Game()
             : base(800, 600)
@@ -93,23 +95,7 @@ namespace Minesharp
         protected override void OnRenderFrame(FrameEventArgs e)
         {
             //update our FPS
-            //NOTE: is this a reliable FPS calculation?
-            if(currentFrame < frames.Length)
-            {
-                frames[currentFrame] = (float)(1.0f / e.Time);
-                currentFrame++;
-            }
-            else
-            {
-                float tempFPS = 0;
-                currentFrame = 0;
-
-                for(int i = 0; i < frames.Length; i++)
-                    tempFPS += frames[i];
-                FPS = tempFPS/(frames.Length);
-                if(Settings.ShowFPS)
-                    this.Title = WindowTitle + " FPS: "+Math.Round(FPS, 2);
-            }
+            UpdateFramerate(e.Time);
 
             //Clear the buffers
             GL.Clear(ClearBufferMask.ColorBufferBit | ClearBufferMask.DepthBufferBit);
@@ -142,6 +128,39 @@ namespace Minesharp
             //Update shit, including the current screen
             _screenManager.Update();
             base.OnUpdateFrame(e);
+        }
+        #endregion
+
+        #region Update Framerate
+        private void UpdateFramerate(double time)
+        {
+
+            //This FPS algorithm updates every second with a 5 frame average
+            //NOTE: is this a reliable FPS calculation?
+            if (FPSUpdateTicker >= 1)
+            {
+                if (currentFrame < frames.Length)
+                {
+                    frames[currentFrame] = (float)(1.0f / time);
+                    currentFrame++;
+                }
+                else
+                {
+                    float tempFPS = 0;
+                    currentFrame = 0;
+
+                    for (Int16 i = 0; i < frames.Length; i++)
+                        tempFPS += frames[i];
+                    FPS = tempFPS / (frames.Length);
+                    if (Settings.ShowFPS)
+                        this.Title = WindowTitle + " FPS: " + Math.Round(FPS, 2);
+                    FPSUpdateTicker = 0;
+                }
+            }
+            else
+            {
+                FPSUpdateTicker += time;
+            }
         }
         #endregion
         #endregion
