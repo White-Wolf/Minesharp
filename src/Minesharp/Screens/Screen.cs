@@ -10,10 +10,29 @@ namespace Minesharp
 {
     public abstract class Screen
     {
-        public abstract void Draw();
-        public abstract void Input_Controller();
-        public abstract void Load();
-        public abstract void Unload();
-        public abstract void Update();
+        protected Dictionary<String, Texture> textures;
+        public Screen()
+        {
+            textures = new Dictionary<string, Texture>();
+        }
+        protected string screenFolder = "Screens/";
+        public virtual void Draw() { }
+        public virtual void Input_Controller(MouseDevice md, KeyboardDevice kd) { }
+        public virtual void Load() { }
+        public virtual void Unload()
+        {
+            foreach (KeyValuePair<string, Texture> textkeyval in textures)
+            {
+                GL.DeleteTexture(textkeyval.Value.Id);
+                TextureEngine.RemoveFromList(textkeyval.Value.Id);
+            }
+            textures.Clear();
+            textures = null;
+        }
+        public virtual void Update(FrameEventArgs e) { }
+        protected Texture LoadTexture(String texture)
+        {
+            return TextureEngine.LoadTexture(screenFolder + texture);
+        }
     }
 }

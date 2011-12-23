@@ -16,7 +16,6 @@ namespace Minesharp
         private int currentFrame = 0;
         private String WindowTitle;
         public float FPS;
-        public ScreenManager _screenManager;
         #endregion
 
         #region Construct
@@ -24,7 +23,10 @@ namespace Minesharp
             : base(800, 600)
         {
             Console.WriteLine("Initializing the Game Window...");
-            #region  Event Handlers
+            #region  Event Handlers & Input Manager
+            //Initialize the Input Manager
+            InputManager.Init(Mouse, Keyboard);
+
             //Hook all of our Event Handlers
             Keyboard.KeyDown += new EventHandler<KeyboardKeyEventArgs>(Event_KeyDown);
             Keyboard.KeyUp += new EventHandler<KeyboardKeyEventArgs>(Event_KeyUp);
@@ -41,7 +43,6 @@ namespace Minesharp
             //set the window title to our variable
             this.Title = WindowTitle;
             //initialize the screen manager
-            _screenManager = new ScreenManager();
             Console.WriteLine("Game Window successfully initialized!");
         }
         #endregion
@@ -85,16 +86,23 @@ namespace Minesharp
             this.VSync = (Settings.VSync) ? VSyncMode.On : VSyncMode.Off;
             this.Width = Settings.Width;
             this.Height = Settings.Height;
+
             //clear the screen to default CornflowerBlue ( uck XP )
             GL.ClearColor(Color.CornflowerBlue);
+
             //Enable Texture2D so we can bind our 2D textures
             GL.Enable(EnableCap.Texture2D);
-            //Push the initial screen
-            _screenManager.Push(new Launcher());
+            //enable blend for transparency
+            GL.Enable(EnableCap.Blend);
+            GL.BlendFunc(BlendingFactorSrc.SrcAlpha, BlendingFactorDest.OneMinusSrcAlpha);
+            GL.Disable(EnableCap.DepthTest);
+
+            //Push the first (loading) screen
+            ScreenManager.Push(new Screens.Loading());
         }
         protected override void OnRenderFrame(FrameEventArgs e)
         {
-            //update our FPS
+            //update our FPS calculations
             UpdateFramerate(e.Time);
 
             //Clear the buffers
@@ -103,7 +111,7 @@ namespace Minesharp
             GL.ClearColor(Color.CornflowerBlue);
 
             //Draw the current screen
-            _screenManager.Draw();
+            ScreenManager.Draw();
 
             //move our current buffer to the screen
             this.SwapBuffers();
@@ -119,15 +127,30 @@ namespace Minesharp
         }
         protected override void OnUnload(EventArgs e)
         {
+            //NOTE: screen manager MUST be called before the texture engine because the screens unload their textures from the texture engine
+            //  and it knows, but the screens don't know when the texture engine unloads their stuff
+            //Tell the screen manager that all screens need to unload their resources
+            ScreenManager.Unload();
             //Tell our texture engine to unload all resources
             TextureEngine.Unload();
             base.OnUnload(e);
         }
         protected override void OnUpdateFrame(FrameEventArgs e)
         {
-            //Update shit, including the current screen
-            _screenManager.Update();
+            //Send the keepalive to the MC HQ so we stay logged in
+            //NOTE: Is this needed for anything but multiplayer?
+            Network.KeepAlive();
+
+            //call the current screen's input controller
+            ScreenManager.InputController(Mouse, Keyboard);
+            //update the current frame
+            ScreenManager.Update(e);
+
             base.OnUpdateFrame(e);
+        }
+        protected override void OnClosing(System.ComponentModel.CancelEventArgs e)
+        {
+            base.OnClosing(e);
         }
         #endregion
 
@@ -135,10 +158,11 @@ namespace Minesharp
         private void UpdateFramerate(double time)
         {
 
-            //This FPS algorithm updates every second with a 5 frame average
+            //This FPS algorithm updates every second
             //NOTE: is this a reliable FPS calculation?
             if (FPSUpdateTicker >= 1)
             {
+                //keep collecting framerate data until the frames[] array is full
                 if (currentFrame < frames.Length)
                 {
                     frames[currentFrame] = (float)(1.0f / time);
@@ -149,11 +173,15 @@ namespace Minesharp
                     float tempFPS = 0;
                     currentFrame = 0;
 
+                    //add all the frame interval times together
                     for (Int16 i = 0; i < frames.Length; i++)
                         tempFPS += frames[i];
+                    //then divide that by the number of frame intervals collected
                     FPS = tempFPS / (frames.Length);
+                    //Only display the data if the user has selected showFPS
                     if (Settings.ShowFPS)
                         this.Title = WindowTitle + " FPS: " + Math.Round(FPS, 2);
+                    Console.WriteLine("FPS: "+Math.Round(FPS, 4));
                     FPSUpdateTicker = 0;
                 }
             }
@@ -163,6 +191,7 @@ namespace Minesharp
             }
         }
         #endregion
+
         #endregion
     }
 }
