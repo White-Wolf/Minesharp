@@ -17,3 +17,12 @@ C:\Development\Minecraft to C#\Minesharp\Binaries\OpenTK\Debug\OpenTK.dll.config
 C:\Development\Minecraft to C#\Minesharp\Binaries\OpenTK\Debug\OpenTK.dll
 C:\Development\Minecraft to C#\Minesharp\Binaries\OpenTK\Debug\OpenTK.pdb
 C:\Development\Minecraft to C#\Minesharp\Binaries\OpenTK\Debug\OpenTK.xml
+C:\Development\Minesharp\Binaries\OpenTK\Debug\OpenTK.dll.config
+C:\Development\Minesharp\Binaries\OpenTK\Debug\OpenTK.dll
+C:\Development\Minesharp\Binaries\OpenTK\Debug\OpenTK.pdb
+C:\Development\Minesharp\Binaries\OpenTK\Debug\OpenTK.xml
+C:\Development\Minesharp\src\OpenTK\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\Minesharp\src\OpenTK\obj\Debug\OpenTK.Properties.Resources.resources
+C:\Development\Minesharp\src\OpenTK\obj\Debug\OpenTK.csproj.GenerateResource.Cache
+C:\Development\Minesharp\src\OpenTK\obj\Debug\OpenTK.dll
+C:\Development\Minesharp\src\OpenTK\obj\Debug\OpenTK.pdb

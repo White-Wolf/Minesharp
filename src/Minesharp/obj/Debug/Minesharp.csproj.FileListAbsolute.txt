@@ -12,3 +12,21 @@ C:\Development\Minecraft to C#\Minesharp\src\Minesharp\obj\Debug\Minesharp.pdb
 C:\Development\Minecraft to C#\Minesharp\src\Minesharp\bin\Debug\settings.conf
 C:\Development\Minecraft to C#\Minesharp\src\Minesharp\bin\Debug\Resources\Screens\Launcher\background.png
 C:\Development\Minecraft to C#\Minesharp\src\Minesharp\bin\Debug\Resources\Screens\Launcher\logo.png
+C:\Development\Minesharp\src\Minesharp\obj\Debug\Minesharp.exe
+C:\Development\Minesharp\src\Minesharp\obj\Debug\Minesharp.pdb
+C:\Development\Minesharp\src\Minesharp\bin\Debug\OpenTK.dll.config
+C:\Development\Minesharp\src\Minesharp\bin\Debug\settings.conf
+C:\Development\Minesharp\src\Minesharp\bin\Debug\Minesharp.exe
+C:\Development\Minesharp\src\Minesharp\bin\Debug\Minesharp.pdb
+C:\Development\Minesharp\src\Minesharp\bin\Debug\OpenTK.dll
+C:\Development\Minesharp\src\Minesharp\bin\Debug\OpenTK.pdb
+C:\Development\Minesharp\src\Minesharp\bin\Debug\OpenTK.xml
+C:\Development\Minesharp\src\Minesharp\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\Minesharp\src\Minesharp\obj\Debug\Minesharp.Properties.Resources.resources
+C:\Development\Minesharp\src\Minesharp\obj\Debug\Minesharp.csproj.GenerateResource.Cache
+C:\Development\Minesharp\src\Minesharp\obj\Debug\Minesharp.Launcher.resources
+C:\Development\Minesharp\src\Minesharp\bin\Debug\Resources\Launcher\background.png
+C:\Development\Minesharp\src\Minesharp\bin\Debug\Resources\Launcher\logo.png
+C:\Development\Minesharp\src\Minesharp\bin\Debug\Resources\Screens\Loading\mojang.png
+C:\Development\Minesharp\src\Minesharp\bin\Debug\Resources\Screens\MainMenu\ButtonsSheet.png
+C:\Development\Minesharp\src\Minesharp\bin\Debug\Resources\Screens\Loading\whitewolf.png

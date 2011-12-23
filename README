@@ -1,9 +1,19 @@
 A work in progress at the moment.
-Still trying to finish up the underlying framework.
-Currently it is using the XNA 3.1 framework for the game-side of it (updated version may remove this for a proprietary framework).
-UPDATE: The XNA framework WILL be dropped in favor of the openTK libraries. The next commit will probably be the beginning of the port.
+Currently it is using the OpenTK framework for game libraries, openGL and input
+
+What Works:
+\t Launcher (although currently the launcher is being bypassed for development's sake; it was a pain everytime I needed to debug the game)
+\t Loading Screen (because you HAVE TO have one to be a legit thing).
+
+What Doesn't Work:
+\t Everything in game (including singleplayer and multiplayer)
+\t Level Loading
+\t Options Menu
+
+What's in the Works:
+\t Main Menu (got the buttons, just gotta start making them do stuff. Not sure if I want to have the panorama BG).
+\t Network Framework (Have user authentication, and...that's it. Sorta have the keepAlive but that's returning an error for some reason).
 
 Build Status: Pre-Alpha
 Build State: Builds
-Current Hurdle: Client-Server communications.
-	Right now I am still researching the connection between the client and a minecraft server. Any insight to this that you can bring would be much appreciated.
+Current Hurdle: laying out the base framework for the in game rendering. If you can lend any help with this I would love it =)
