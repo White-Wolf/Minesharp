@@ -30,8 +30,10 @@ namespace Minesharp.Screens
                     switch (i)
                     {
                         case 0: //Singleplayer clicked
+                            ScreenManager.Push(new Screens.Singleplayer());
                             break;
                         case 1: //Multiplayer clicked
+                            ScreenManager.Push(new Screens.Multiplayer());
                             break;
                         case 2: //Texture Packs clicked
                             break;

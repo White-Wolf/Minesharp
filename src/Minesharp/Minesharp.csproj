@@ -63,6 +63,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Game.cs" />
+    <Compile Include="GUIEngine.cs" />
+    <Compile Include="GUIs\GUI.cs" />
     <Compile Include="InputManager.cs" />
     <Compile Include="Launcher.cs">
       <SubType>Form</SubType>
@@ -101,6 +103,8 @@
     </Compile>
     <Compile Include="Screens\Loading.cs" />
     <Compile Include="Screens\MainMenu.cs" />
+    <Compile Include="Screens\Multiplayer.cs" />
+    <Compile Include="Screens\Singleplayer.cs" />
     <Compile Include="TextureEngine.cs" />
     <Compile Include="ScreenManager.cs" />
     <Compile Include="Screens\Screen.cs" />
@@ -156,6 +160,10 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\CsAssortedWidgets\CsAssortedWidgets.csproj">
+      <Project>{3B933839-C505-48D4-A5CE-D9375C88E943}</Project>
+      <Name>CsAssortedWidgets</Name>
+    </ProjectReference>
     <ProjectReference Include="..\OpenTK\OpenTK.csproj">
       <Project>{A37A7E14-0000-0000-0000-000000000000}</Project>
       <Name>OpenTK</Name>

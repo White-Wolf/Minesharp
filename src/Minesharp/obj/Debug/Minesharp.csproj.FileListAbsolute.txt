@@ -30,3 +30,11 @@ C:\Development\Minesharp\src\Minesharp\bin\Debug\Resources\Launcher\logo.png
 C:\Development\Minesharp\src\Minesharp\bin\Debug\Resources\Screens\Loading\mojang.png
 C:\Development\Minesharp\src\Minesharp\bin\Debug\Resources\Screens\MainMenu\ButtonsSheet.png
 C:\Development\Minesharp\src\Minesharp\bin\Debug\Resources\Screens\Loading\whitewolf.png
+C:\Development\Minesharp\src\Minesharp\bin\Debug\CsAssortedWidgets.net.dll
+C:\Development\Minesharp\src\Minesharp\bin\Debug\CsAssortedWidgets.net.pdb
+C:\Development\Minesharp\src\Minesharp\bin\Debug\Resources\arrow-transfer.png
+C:\Development\Minesharp\src\Minesharp\bin\Debug\Resources\in.png
+C:\Development\Minesharp\src\Minesharp\bin\Debug\Resources\move_all.cur
+C:\Development\Minesharp\src\Minesharp\bin\Debug\Resources\aw.png
+C:\Development\Minesharp\src\Minesharp\bin\Debug\Resources\arial.ttf
+C:\Development\Minesharp\src\Minesharp\bin\Debug\Resources\checker.png

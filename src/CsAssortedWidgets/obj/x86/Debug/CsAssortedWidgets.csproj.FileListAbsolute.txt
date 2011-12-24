@@ -1,0 +1,17 @@
+C:\Users\Miguel\Documents\Bitiopia\Proyectos\CsGUI\CsAssortedWidgets\CsAssortedWidgets\CsAssortedWidgets\bin\debug\CsAssortedWidgets.net.dll
+C:\Users\Miguel\Documents\Bitiopia\Proyectos\CsGUI\CsAssortedWidgets\CsAssortedWidgets\CsAssortedWidgets\bin\debug\CsAssortedWidgets.net.pdb
+C:\Users\Miguel\Documents\Bitiopia\Proyectos\CsGUI\CsAssortedWidgets\CsAssortedWidgets\CsAssortedWidgets\bin\debug\OpenTK.dll
+C:\Users\Miguel\Documents\Bitiopia\Proyectos\CsGUI\CsAssortedWidgets\CsAssortedWidgets\CsAssortedWidgets\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Miguel\Documents\Bitiopia\Proyectos\CsGUI\CsAssortedWidgets\CsAssortedWidgets\CsAssortedWidgets\obj\x86\Debug\CsAssortedWidgets.net.dll
+C:\Users\Miguel\Documents\Bitiopia\Proyectos\CsGUI\CsAssortedWidgets\CsAssortedWidgets\CsAssortedWidgets\obj\x86\Debug\CsAssortedWidgets.net.pdb
+C:\Development\Minesharp\src\CsAssortedWidgets\bin\debug\CsAssortedWidgets.net.dll
+C:\Development\Minesharp\src\CsAssortedWidgets\bin\debug\CsAssortedWidgets.net.pdb
+C:\Development\Minesharp\src\CsAssortedWidgets\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Development\Minesharp\src\CsAssortedWidgets\obj\x86\Debug\CsAssortedWidgets.net.dll
+C:\Development\Minesharp\src\CsAssortedWidgets\obj\x86\Debug\CsAssortedWidgets.net.pdb
+C:\Development\Minesharp\src\CsAssortedWidgets\bin\debug\Resources\aw.png
+C:\Development\Minesharp\src\CsAssortedWidgets\bin\debug\Resources\checker.png
+C:\Development\Minesharp\src\CsAssortedWidgets\bin\debug\Resources\in.png
+C:\Development\Minesharp\src\CsAssortedWidgets\bin\debug\Resources\move_all.cur
+C:\Development\Minesharp\src\CsAssortedWidgets\bin\debug\Resources\arrow-transfer.png
+C:\Development\Minesharp\src\CsAssortedWidgets\bin\debug\Resources\arial.ttf

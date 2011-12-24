@@ -1,0 +1,6 @@
+C:\Users\Miguel\Documents\Bitiopia\Proyectos\CsGUI\CsAssortedWidgets\CsAssortedWidgets\CsAssortedWidgets\bin\debug\CsAssortedWidgets.net.dll
+C:\Users\Miguel\Documents\Bitiopia\Proyectos\CsGUI\CsAssortedWidgets\CsAssortedWidgets\CsAssortedWidgets\bin\debug\CsAssortedWidgets.net.pdb
+C:\Users\Miguel\Documents\Bitiopia\Proyectos\CsGUI\CsAssortedWidgets\CsAssortedWidgets\CsAssortedWidgets\bin\debug\OpenTK.dll
+C:\Users\Miguel\Documents\Bitiopia\Proyectos\CsGUI\CsAssortedWidgets\CsAssortedWidgets\CsAssortedWidgets\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Miguel\Documents\Bitiopia\Proyectos\CsGUI\CsAssortedWidgets\CsAssortedWidgets\CsAssortedWidgets\obj\Debug\CsAssortedWidgets.net.dll
+C:\Users\Miguel\Documents\Bitiopia\Proyectos\CsGUI\CsAssortedWidgets\CsAssortedWidgets\CsAssortedWidgets\obj\Debug\CsAssortedWidgets.net.pdb

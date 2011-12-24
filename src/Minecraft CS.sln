@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual C# Express 2008
+# Visual Studio 2008
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minesharp", "Minesharp\Minesharp.csproj", "{00A1B3D3-C387-48C4-AA54-B6CF9177D9DA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenTK", "OpenTK\OpenTK.csproj", "{A37A7E14-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsAssortedWidgets", "CsAssortedWidgets\CsAssortedWidgets.csproj", "{3B933839-C505-48D4-A5CE-D9375C88E943}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +63,28 @@ Global
 		{A37A7E14-0000-0000-0000-000000000000}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{A37A7E14-0000-0000-0000-000000000000}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{A37A7E14-0000-0000-0000-000000000000}.Release|x86.ActiveCfg = Release|Any CPU
+		{3B933839-C505-48D4-A5CE-D9375C88E943}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B933839-C505-48D4-A5CE-D9375C88E943}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B933839-C505-48D4-A5CE-D9375C88E943}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{3B933839-C505-48D4-A5CE-D9375C88E943}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{3B933839-C505-48D4-A5CE-D9375C88E943}.Debug|x86.ActiveCfg = Debug|x86
+		{3B933839-C505-48D4-A5CE-D9375C88E943}.Debug|x86.Build.0 = Debug|x86
+		{3B933839-C505-48D4-A5CE-D9375C88E943}.Documentation|Any CPU.ActiveCfg = Debug|x86
+		{3B933839-C505-48D4-A5CE-D9375C88E943}.Documentation|Mixed Platforms.ActiveCfg = Debug|x86
+		{3B933839-C505-48D4-A5CE-D9375C88E943}.Documentation|Mixed Platforms.Build.0 = Debug|x86
+		{3B933839-C505-48D4-A5CE-D9375C88E943}.Documentation|x86.ActiveCfg = Debug|x86
+		{3B933839-C505-48D4-A5CE-D9375C88E943}.Documentation|x86.Build.0 = Debug|x86
+		{3B933839-C505-48D4-A5CE-D9375C88E943}.Nsis|Any CPU.ActiveCfg = Release|x86
+		{3B933839-C505-48D4-A5CE-D9375C88E943}.Nsis|Mixed Platforms.ActiveCfg = Release|x86
+		{3B933839-C505-48D4-A5CE-D9375C88E943}.Nsis|Mixed Platforms.Build.0 = Release|x86
+		{3B933839-C505-48D4-A5CE-D9375C88E943}.Nsis|x86.ActiveCfg = Release|x86
+		{3B933839-C505-48D4-A5CE-D9375C88E943}.Nsis|x86.Build.0 = Release|x86
+		{3B933839-C505-48D4-A5CE-D9375C88E943}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B933839-C505-48D4-A5CE-D9375C88E943}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B933839-C505-48D4-A5CE-D9375C88E943}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{3B933839-C505-48D4-A5CE-D9375C88E943}.Release|Mixed Platforms.Build.0 = Release|x86
+		{3B933839-C505-48D4-A5CE-D9375C88E943}.Release|x86.ActiveCfg = Release|x86
+		{3B933839-C505-48D4-A5CE-D9375C88E943}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
